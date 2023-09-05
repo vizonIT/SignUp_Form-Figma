@@ -1,0 +1,234 @@
+/* tag selector(just the tag name) */
+/* h2{
+    color: blueviolet;
+    font-size: 40px; 
+    font-weight: 300;
+    text-transform: capitalize;
+} */
+
+/* pseudo elements  use double colon*/
+/* h2::first-letter{
+    color: darkolivegreen;
+} */
+/* pseudo class use single colon */
+/* .class-selector:hover{
+    font-size: 25px;
+} */
+
+/* class selector(add a dot(.) before the class name */
+/* .class-selector{
+    color: brown;
+    font-size: 45px; 
+    font-weight: 600;
+    text-transform: uppercase;
+} */
+/* id selector(add a hash(#) before the id name */
+/* #id-selector{
+    color: palevioletred;
+    font-size: 50px; 
+    font-weight: 900;
+    text-transform: lowercase;
+    border: 30px solid red;
+    margin: 30px;
+    /* outline: 30px solid darkgreen ; */
+
+/* #id-selector, .parent{
+    padding: 30px;
+}
+.parent{
+    border: 30px solid black;
+    margin: 50px;
+    font-size: 40px;
+    color: blue;
+}
+.child1, .child2, .child3{
+    padding: 15px;
+    margin: 15px;
+}
+.child1{
+    border: 15px solid black;
+}
+.child2{
+    border: 15px solid blue;
+    color: red;
+}
+.child3{
+    border: 15px solid crimson;
+}
+.grandchild2{
+    font-size: 30px;
+    color: brown;
+} */
+/* block element */
+/* h2{
+    border: 10px solid red;
+    text-align: center;
+}
+h1{
+    width: 100px;
+    height: 100px;
+    border: 2px solid brown; 
+    padding: 30px;
+    margin: 30px;
+}
+
+.name{
+    width: 100px;
+    height: 100px;
+    border: 2px solid brown;
+    padding-top: 30px;
+    margin-top: 30px;
+}
+.text1, .text2, .text3, .text4{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 2px solid brown;
+    padding-top: 30px;
+    margin-top: 30px; */
+/* } */
+
+
+/* aligning */
+/* .parent1{
+    width: 500px;
+    height: 500px;
+    border: 3px solid #000;
+    position: relative;
+    
+}
+.child6{
+ font-size: 30px;
+ position: fixed;
+ top: 0;
+ right: 0;
+}
+.child3{
+    position: absolute;
+    bottom: 100px;
+    left: 150px;
+}
+.child33{
+    font-size: 40px;
+    position: sticky;
+    top: 40px;
+} */
+/* .sticky-parent{
+    position: sticky;
+    top: 40px;
+    background-color: aquamarine;
+} */
+
+/* width and height */
+/* .sample1{
+    width: 100%;
+    padding: 50px 0;
+    border: 2px solid black;
+}
+.sample2{
+    padding: 20px;
+    max-width: 400px;
+    min-width: 300px; */
+    /* height: 300px; */
+    /* background-color: aquamarine;
+} */
+
+/* flexbox */
+/* parent properties */
+/* .parent{
+ display: flex;
+ height: 500px;
+ border: 2px solid red;
+ padding: 20px;
+ gap: 30px;
+ flex-direction: row; */
+ /* flex-wrap: wrap-reverse; */
+ /* flex-flow: column wrap; */
+ /* justify-content: start;
+ align-items: center; */
+ /* align-content: space-between; */
+/* } */
+/* .children{
+    height: 120px;
+    width: 120px;
+    font-size: 20px;
+    background-color: aquamarine;
+}
+.child1{ */
+    /* align-self: end; */
+    /* width: 120px;
+    font-size: 50px;
+    background-color: aquamarine; */
+    /* flex-shrink: 0; */
+    /* flex-basis: 100px; */
+/* }
+.child3{ */
+    /* align-self: baseline; */
+  /* flex-grow: .6;
+  
+    
+}
+.child2{ */
+    /* 0 */
+    /* flex-grow: .4;
+} */
+
+/* assigmnent */
+.signUpForm{
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 30px ;
+    display: flex;
+    /* border: 2px solid black; */
+}
+.leftSide{
+  width: 50%;
+}
+.background, .bgImg, .contents{
+    width: 100%;
+    height: 100%;
+}
+.background{
+    position: relative;
+}
+.contents{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.titlePic{
+    width: 90px;
+    padding: 20px 30px;
+}
+.buttons{
+   font-size: 30px;
+   display: flex;
+   flex-direction: column;
+   gap: 25px;
+   justify-content: center;
+   align-items: center;
+   margin-top: 150px;
+}
+.leftbtn{
+    padding: 3px 0;
+    width: 384px;
+    height: 34px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    background-color: #fff;
+    border: none;
+    box-shadow: 1px 1px #CCCCCC;
+    color: #707070;
+}
+.rightSide{
+  width: 50%;
+}
+
+
+

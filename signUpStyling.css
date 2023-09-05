@@ -1,0 +1,66 @@
+/* assigmnent */
+.signUpForm {
+  width: 1000px;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: flex;
+  /* border: 2px solid black; */
+}
+
+.leftSide {
+  width: 50%;
+}
+
+.background,
+.bgImg,
+.contents {
+  width: 100%;
+  height: 100%;
+}
+
+.background {
+  position: relative;
+}
+
+.contents {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.titlePic {
+  width: 90px;
+  padding: 20px 30px;
+}
+
+.buttons {
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.leftbtn {
+  padding: 3px 0;
+  width: 384px;
+  height: 34px;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  background-color: #fff;
+  border: none;
+  box-shadow: 1px 1px #CCCCCC;
+  color: #707070;
+}
+
+.rightSide {
+  width: 50%;
+}
