@@ -1,4 +1,8 @@
 /* assigmnent */
+body {
+  background-color: #CCCCCC;
+}
+
 .signUpForm {
   width: 1000px;
   height: 600px;
@@ -63,4 +67,110 @@
 
 .rightSide {
   width: 50%;
+  background-color: #fff;
+  position: relative;
+}
+
+.curnersContainer {
+  width: 100%;
+  height: 100%;
+
+}
+
+.imag1,
+.imag2 {
+  position: absolute;
+}
+
+.imag1 {
+  top: 0;
+  right: 0;
+}
+
+.imag2 {
+  bottom: 0;
+  left: 0;
+}
+
+.rightTitle {
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+
+}
+
+
+.headings,
+.rightTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.headings {
+  width: 380px;
+  height: 106px;
+}
+
+h1,
+h4 {
+  font-stretch: expanded;
+  font-weight: 1000;
+  color: #707070;
+  margin: 10px 0;
+}
+
+h1 {
+  font-size: 40px
+}
+
+h4 {
+  font-size: 23px;
+}
+
+.lowButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.butnblock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+  height: 50px;
+  margin: 10px 0;
+}
+
+button,
+input {
+  width: 384px;
+  height: 34px;
+  padding: 3px;
+}
+
+button {
+  margin-bottom: 30px;
+  border-radius: 34px;
+  color: #fff;
+  background-color: rgb(26, 139, 238);
+  box-shadow: 1px 1px #CCCCCC;
+  font-weight: 40px;
+}
+
+
+label {
+  /* justify-self: left; */
+  Width: 384px;
+  Height: 30px;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 0px;
+
+
 }
